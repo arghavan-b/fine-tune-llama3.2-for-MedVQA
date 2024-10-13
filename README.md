@@ -21,6 +21,13 @@ We use the [PMC-VQA](https://huggingface.co/datasets/xmcmic/PMC-VQA) dataset, wh
 - Requests
 - Zipfile
 
+## Results
+
+|Image| Base Generation       | Fine-tuned Generation            | Correct Answer     |
+|---------|------------|-----------------|---------------|
+|![image](Unknown.png)| **Step 1: Identifying the type of image** The image consists of microscopic pictures showing the penetration of a conjugate (cpPD-Cy3 complex) in cells. The image consists of 3 panels (A, B, and C). **Step 2: Identifying the conjugate** In panel (A), the conjugate is identified as cpPD-Cy3 complex. Panels (B) and (C) show the penetration of cpPD-Cy3 complex over time, in seconds. Panels (B) and (C) have labels with arrows identifying the penetration rate. **Step 3: Conclusion** The images show the penetration of cpPD-Cy3 complex in cells.     | CPD-Cy3 fluorescence.       | Cy3 fluorescence     |
+
+
 
 ## Acknowledgements
 
